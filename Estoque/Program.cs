@@ -47,6 +47,16 @@
 
         }
 
+        public void vender()
+        {
+            quantidade--;
+        }
+
+        public void repor()
+        {
+            quantidade++;
+        }
+
         public long getId() { return id; }
         public string getNome() { return nome; }
         public double getPreco() { return preco; }
